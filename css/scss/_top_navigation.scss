@@ -1,0 +1,91 @@
+.navbar-default{
+	background-color: #181415;
+	height: 72px;
+}
+.navbar-brand {
+	padding-top: 24px;
+    width: 140px;
+    height: auto;
+}
+
+.navbar-nav>li>a{
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 39px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  &:focus, &:hover {
+    color: #6eba42;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #6eba42;
+  background-color: #0f0c0d;
+  &:focus, &:hover {
+    color: #6eba42;
+    background-color: #0f0c0d;
+  }
+}
+.navbar-toggle{
+	margin-top: 15px;
+	border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background: white;
+}
+.navbar-default .navbar-toggle {
+  &:focus, &:hover {
+    background-color: transparent;
+  }
+}
+.navbar-toggle .icon-bar {
+    width: 32px;
+    height: 4px;
+    margin-bottom: 6px;
+}
+.navbar-default {
+  .navbar-collapse, .navbar-form {
+    border: none;
+    background-color: #181415;
+  }
+}
+.navbar-fixed-top{
+	border: none;
+}
+.menu{
+	float: left;
+	margin-left: -50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+}
+.shop{
+	border-radius: 1px;
+	background-color: #68af3d;
+	padding: 12px;
+	margin-left: 15px;
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	&:focus, &:hover {
+    background-color: #58a02d;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+.navbar-collapse{
+    transition: all 0.3s;
+  }
+.navbar-right{
+	padding-bottom: 20px;
+}

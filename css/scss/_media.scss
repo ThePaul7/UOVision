@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+	.navbar-default{
+		height: 70px;
+	}
+	.navbar-brand img:after {
+	 	position: absolute;
+	 	display: inline-block;
+	    border: 1px solid #3d3638;
+	  }
+	  .navbar-right {
+	  	margin-left: 0px;
+	    margin-right: -5px;
+	    margin-top: 25px;
+	  }
+	  .header{
+		background: url(/img/vizual-1600.jpg) no-repeat center center;
+	  	padding-top: 100px;
+	  	text-align: left;
+	  	height: 456px;
+	  }
+	  footer{
+		text-align: left;
+	  }
+	  .ft-shop:after {
+	      content:"";
+	      position: absolute;
+	      top: 25%;
+	      bottom:0;
+	      left: 0;
+	      width: 0px;
+	      height: 50%;
+	      border-right: 1px solid #dfd7c7;
+	      border-top: none;
+	  }
+}
